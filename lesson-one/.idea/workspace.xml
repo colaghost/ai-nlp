@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8da2c7b0-4154-4076-998c-b41cd006a9a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/lesson-one.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lesson-one.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lesson-two/probability_based.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,97 +15,74 @@
     <session id="1627372112">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="4" />
+          <entry key="project.open.time.5" value="5" />
           <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="3" />
+          <entry key="py" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="3" />
+          <entry key="Python" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="4742" />
+          <entry key="py" value="4823" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4742" />
+          <entry key="Python" value="4823" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.31477928">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/sentence_generator.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-                  <folding>
-                    <marker date="1541518713464" expanded="true" signature="331:335" ph="..." />
-                    <marker date="1541518713464" expanded="true" signature="723:1017" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/search.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-                  <folding>
-                    <element signature="e#1265#1280#0" expanded="true" />
-                    <marker date="1541947347650" expanded="true" signature="220:376" ph="..." />
-                    <marker date="1541947347650" expanded="true" signature="795:858" ph="..." />
-                    <marker date="1541947347650" expanded="true" signature="941:942" ph="..." />
-                    <marker date="1541947347650" expanded="true" signature="941:944" ph="..." />
-                    <marker date="1541947347650" expanded="true" signature="1326:1362" ph="..." />
-                    <marker date="1541947347650" expanded="true" signature="1453:1458" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/search.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="275">
-                  <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#1265#1280#0" expanded="true" />
-                    <marker date="1541947347650" expanded="true" signature="220:376" ph="..." />
-                    <marker date="1541947347650" expanded="true" signature="795:858" ph="..." />
-                    <marker date="1541947347650" expanded="true" signature="941:942" ph="..." />
-                    <marker date="1541947347650" expanded="true" signature="941:944" ph="..." />
-                    <marker date="1541947347650" expanded="true" signature="1326:1362" ph="..." />
-                    <marker date="1541947347650" expanded="true" signature="1453:1458" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sentence_generator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+              <folding>
+                <marker date="1541518713464" expanded="true" signature="331:335" ph="..." />
+                <marker date="1541518713464" expanded="true" signature="723:1017" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+              <folding>
+                <element signature="e#1265#1280#0" expanded="true" />
+                <marker date="1541947421731" expanded="true" signature="220:376" ph="..." />
+                <marker date="1541947421731" expanded="true" signature="795:858" ph="..." />
+                <marker date="1541947421731" expanded="true" signature="941:942" ph="..." />
+                <marker date="1541947421731" expanded="true" signature="941:944" ph="..." />
+                <marker date="1541947421731" expanded="true" signature="1326:1362" ph="..." />
+                <marker date="1541947421731" expanded="true" signature="1453:1458" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -153,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +139,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,14 +235,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1377" height="912" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32860824" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32860824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39948454" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -298,16 +272,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+        <state relative-caret-position="411">
+          <caret line="75" column="37" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
           <folding>
             <element signature="e#1265#1280#0" expanded="true" />
-            <marker date="1541947347650" expanded="true" signature="220:376" ph="..." />
-            <marker date="1541947347650" expanded="true" signature="795:858" ph="..." />
-            <marker date="1541947347650" expanded="true" signature="941:942" ph="..." />
-            <marker date="1541947347650" expanded="true" signature="941:944" ph="..." />
-            <marker date="1541947347650" expanded="true" signature="1326:1362" ph="..." />
-            <marker date="1541947347650" expanded="true" signature="1453:1458" ph="..." />
+            <marker date="1541947421731" expanded="true" signature="220:376" ph="..." />
+            <marker date="1541947421731" expanded="true" signature="795:858" ph="..." />
+            <marker date="1541947421731" expanded="true" signature="941:942" ph="..." />
+            <marker date="1541947421731" expanded="true" signature="941:944" ph="..." />
+            <marker date="1541947421731" expanded="true" signature="1326:1362" ph="..." />
+            <marker date="1541947421731" expanded="true" signature="1453:1458" ph="..." />
           </folding>
         </state>
       </provider>
