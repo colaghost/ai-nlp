@@ -36,7 +36,7 @@ def GetProbabilityTemplate(counter):
     items = element_freq_map.items()
     items = sorted(items)[:11]
     lt11_dict = {freq:count for freq, count in items}
-    print(lt11_dict)
+    #print(lt11_dict)
     lt11_probability = {}
     total_probability = 0
     total_recal_probability = 0
@@ -47,10 +47,10 @@ def GetProbabilityTemplate(counter):
             lt11_probability[freq] = dr / character_count
             total_recal_probability += lt11_probability[freq] * lt11_dict[freq]
             total_probability += freq / character_count * lt11_dict[freq]
-            print("{} {}".format(freq, freq/character_count))
+            #print("{} {}".format(freq, freq/character_count))
     lt11_probability[0] = 1 / character_count
-    print(lt11_probability)
-    print("{} {}".format(total_recal_probability, total_probability))
+    #print(lt11_probability)
+    #print("{} {}".format(total_recal_probability, total_probability))
     def GetProbability(character):
         freq = counter[character] if character in counter else 0
         if freq <= 10:
