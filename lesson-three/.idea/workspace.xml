@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="557cde13-5a60-4ffd-879b-ad57390c7e2e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/search.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lesson-two/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson-two/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="557cde13-5a60-4ffd-879b-ad57390c7e2e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +34,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="14440" />
+          <entry key="py" value="14445" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="14440" />
+          <entry key="Python" value="14445" />
         </counts>
       </usages-collector>
     </session>
@@ -53,14 +49,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="133" selection-start-line="133" selection-end-line="133" />
+            <state relative-caret-position="320">
+              <caret line="132" column="54" selection-start-line="132" selection-start-column="54" selection-end-line="132" selection-end-column="54" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
-                <marker date="1543152877185" expanded="true" signature="111:495" ph="..." />
-                <marker date="1543152877185" expanded="true" signature="370:375" ph="..." />
-                <marker date="1543152877185" expanded="true" signature="513:5484" ph="..." />
-                <marker date="1543152877185" expanded="true" signature="2428:2652" ph="..." />
+                <marker date="1543589845650" expanded="true" signature="111:495" ph="..." />
+                <marker date="1543589845650" expanded="true" signature="370:375" ph="..." />
+                <marker date="1543589845650" expanded="true" signature="513:5570" ph="..." />
+                <marker date="1543589845650" expanded="true" signature="2428:2652" ph="..." />
               </folding>
             </state>
           </provider>
@@ -209,14 +205,14 @@
     <entry file="file://$PROJECT_DIR$/bj_staion" />
     <entry file="file://$PROJECT_DIR$/search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        <state relative-caret-position="320">
+          <caret line="132" column="54" selection-start-line="132" selection-start-column="54" selection-end-line="132" selection-end-column="54" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
-            <marker date="1543152877185" expanded="true" signature="111:495" ph="..." />
-            <marker date="1543152877185" expanded="true" signature="370:375" ph="..." />
-            <marker date="1543152877185" expanded="true" signature="513:5484" ph="..." />
-            <marker date="1543152877185" expanded="true" signature="2428:2652" ph="..." />
+            <marker date="1543589845650" expanded="true" signature="111:495" ph="..." />
+            <marker date="1543589845650" expanded="true" signature="370:375" ph="..." />
+            <marker date="1543589845650" expanded="true" signature="513:5570" ph="..." />
+            <marker date="1543589845650" expanded="true" signature="2428:2652" ph="..." />
           </folding>
         </state>
       </provider>

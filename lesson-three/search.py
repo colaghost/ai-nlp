@@ -83,6 +83,7 @@ class BJStation():
                         next_station_node.g = cal_g
                         next_station_node.parent = curr_station
                         next_station_node.lines = set(curr_station_node.lines)
+
                 else:
                     lines = set(curr_station_node.lines & self.station_line[next_station])
                     if len(lines) == 0:
