@@ -78,6 +78,7 @@ class BJStation():
                 curr_station_node = station_dict[curr_station]
                 if next_station in open_list:
                     next_station_node = station_dict[next_station]
+                    cal_g = cal_g_strategy_func(curr_station_node, next_station_node)
                     if cal_g < next_station_node.g:
                         next_station_node.g = cal_g
                         next_station_node.parent = curr_station
