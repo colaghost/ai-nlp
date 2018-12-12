@@ -46,35 +46,22 @@ import matplotlib.pyplot as plt
 
 plt.figure(figsize=(12, 12))
 
-#for i in range(len(words)):
-#    x = X_tsne[i][0]
-#    y = X_tsne[i][1]
-#    plt.scatter(x, y)
-#    print('{} {}'.format(x, y))
-#    plt.annotate(words[i], (x, y), ha='center', va='top')
+def display_closestwords_tsnescatterplot(model, words):
+    arr = np.empty((0, 100), dtype='f')
+    word_labels = []
 
+    for word in words:
+        word_labels.append(word)
+        # get close words
+        close_words = model.similar_by_word(word)
+        print(close_words)
 
-#plt.figure(figsize=(10, 5))
-#plt.subplot(121)
-#plt.scatter(X_tsne[:, 0], X_tsne[:, 1], label="t-SNE")
-#plt.legend()
-#plt.show()
-
-
-def display_closestwords_tsnescatterplot(model, word):
-    arr = np.empty((0, 300), dtype='f')
-    word_labels = [word]
-
-    # get close words
-    close_words = model.similar_by_word(word)
-    print(close_words)
-
-    # add the vector for each of the closest words to the array
-    arr = np.append(arr, np.array([model[word]]), axis=0)
-    for wrd_score in close_words:
-        wrd_vector = model[wrd_score[0]]
-        word_labels.append(wrd_score[0])
-        arr = np.append(arr, np.array([wrd_vector]), axis=0)
+        # add the vector for each of the closest words to the array
+        arr = np.append(arr, np.array([model[word].data]), axis=0)
+        for wrd_score in close_words:
+            wrd_vector = model[wrd_score[0]]
+            word_labels.append(wrd_score[0])
+            arr = np.append(arr, np.array([wrd_vector]), axis=0)
 
     # find tsne coords for 2 dimensions
     tsne = TSNE(n_components=2, random_state=0)
@@ -92,6 +79,6 @@ def display_closestwords_tsnescatterplot(model, word):
     plt.ylim(y_coords.min() + 0.00005, y_coords.max() + 0.00005)
     plt.show()
 
-display_closestwords_tsnescatterplot(model, '冰箱')
+display_closestwords_tsnescatterplot(model, ['冰箱', '生存', '性感', '中国', '男人', '字典'])
 
 
