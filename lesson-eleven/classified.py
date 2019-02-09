@@ -18,13 +18,13 @@ def read_stop_words():
             stop_words.append(word.strip())
     return stop_words
 
-def readtrain():
+def read_train():
     content_train = []
     opinion_train = []
     for idx in range(len(content['content'])):
         main_content = content['content'][idx]
         source = content['source'][idx]
-        if main_content.find('新华社') != -1 and source.find('新华') == 0:
+        if main_content.find('新华社') != -1 and source.find('新华') == -1:
             continue
         content_train.append(main_content)
         opinion_train.append(1 if source.find('新华') == 0 else 0)
@@ -39,7 +39,7 @@ def segment_word(content):
     return c
 
 stop_words = read_stop_words()
-train = readtrain()
+train = read_train()
 content = segment_word(train[0])
 opinion = np.array(train[1])
 vect = TfidfVectorizer(min_df=2, analyzer='word', token_pattern=r'\w{1,}', stop_words=stop_words)
@@ -70,7 +70,8 @@ print ('ACC: %.4f' % metrics.accuracy_score(test_opinion,y_pred))
 print ('Recall: %.4f' % metrics.recall_score(test_opinion,y_pred))
 print ('Precesion: %.4f' % metrics.precision_score(test_opinion,y_pred))
 
-#AUC: 0.9871
-#ACC: 0.9899
-#Recall: 0.9436
-#Precesion: 0.9913
+#AUC: 0.9988
+#ACC: 0.9981
+#Recall: 0.9981
+#Precesion: 0.9997
+
